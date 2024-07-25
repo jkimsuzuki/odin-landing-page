@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+.section1 {
+    margin: 0;
+}
+
+img {
+    width: 70px;
+    height: 50px;
+}
+
+.header {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    color: white;
+    font-size: 18px;
+    justify-content: flex-end;
+    padding: 0;
+    padding-right: 20px;
+    width: 100%;
+    gap: 20px;
+}
