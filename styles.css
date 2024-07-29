@@ -8,6 +8,7 @@ body {
 img {
     width: 70px;
     height: 50px;
+    padding-left: 180px;
 }
 
 .header {
@@ -21,7 +22,55 @@ ul {
     font-size: 18px;
     justify-content: flex-end;
     padding: 0;
-    padding-right: 20px;
+    padding-right: 180px;
     width: 100%;
-    gap: 20px;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(146, 133, 54);
+}
+
+a:visited {
+    color: white;
+}
+
+.section2 {
+    display: flex;
+}
+
+.hero-main {
+    display: flex;
+    margin: 100px 180px;
+    flex-direction: column;
+    width: 800px;
+}
+
+h1, p {
+    color: white;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div > img {
+    width: 600px;
+    height: 250px;
+    padding: 0%;
+    margin: 100px 180px;
+}
+
+button {
+    padding: 10px;
+    background-color: orangered;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
 }
