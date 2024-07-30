@@ -125,5 +125,30 @@ h2 {
 
 .quote-section {
     background-color: lightgray;
-    height: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote > p {
+    font-size: 36px;
+    font-style: italic;
+    width: 600px;
+}
+
+.author {
+    padding-left: 850px;
+}
+
+.author > p {
+    color: black;
+    font-weight: bold;
 }
