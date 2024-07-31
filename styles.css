@@ -195,3 +195,12 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
+/* FOOTER */
+.footer {
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
